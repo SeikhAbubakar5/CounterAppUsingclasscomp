@@ -16,7 +16,7 @@ class App extends React.Component {
         <p>Count: {this.state.count}</p>
         <div>
           <button onClick={() => this.setState({ count: this.state.count + 1 })}>Increment</button>
-          <button onClick={() => this.setState({ count: this.state.count - 1 })}>Increment</button>
+          <button onClick={() => this.setState({ count: this.state.count - 1 })}>Decrement</button>
         </div>
       </div>
     )
